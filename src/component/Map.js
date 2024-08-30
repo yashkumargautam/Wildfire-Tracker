@@ -17,7 +17,7 @@ import GoogleMapReact from 'google-map-react'
   return (
       <div className="map">
           <GoogleMapReact
-              bootstrapURLKeys={{ key: 'AIzaSyBrOqQaTuKif4FTSqAngjrywde4Yapuomg' }}
+              bootstrapURLKeys={{ key: 'Product key' }}
               defaultCenter={ center }
               defaultZoom={ zoom }
           >
@@ -27,7 +27,6 @@ import GoogleMapReact from 'google-map-react'
       </div>
   )
 }
-// 'AIzaSyBrOqQaTuKif4FTSqAngjrywde4Yapuomg'
 // h0qXdrvFK08Hgv1JLt4WhwXsd6nyMo0GNKVvxfeT
 Map.defaultProps = {
     center: {
